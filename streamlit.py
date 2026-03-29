@@ -46,7 +46,8 @@ clarity_val = clarity_map[clarity]
 volume = x * y * z
 dimension_ratio = x / y if y != 0 else 0
 
-features = np.array([[carat, cut_val, color_val, clarity_val, volume, dimension_ratio,volume]])
+features = np.array([[carat, cut, color, clarity, depth, dimension_ratio,volume]])
+
 
 # ------------------ BUTTON ------------------ #
 if st.button("🔍 Predict"):
