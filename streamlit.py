@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-st.title("💎 Diamond Predictor")
+st.title("💎 Diamond Price Predictor")
 
 # ------------------ LOAD MODELS ------------------ #
 try:
